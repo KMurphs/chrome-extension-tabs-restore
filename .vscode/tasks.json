@@ -1,0 +1,31 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "build",
+			"path": "popup/",
+			"group": "build",
+			"problemMatcher": [],
+			"label": "npm: build - popup",
+			"detail": "react-scripts build"
+		},
+		{
+			"type": "npm",
+			"script": "release",
+			"path": "popup/",
+			"problemMatcher": [],
+			"label": "npm: release - popup",
+			"detail": "npm run build && copy ..\\manifest.json .\\build"
+		},
+		{
+			"type": "npm",
+			"script": "test",
+			"path": "popup/",
+			"group": "test",
+			"problemMatcher": [],
+			"label": "npm: test - popup",
+			"detail": "react-scripts test"
+		}
+	]
+}
