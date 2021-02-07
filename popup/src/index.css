@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+h1{
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont;
+}
+
+
+a:link, a:visited{
+  color: #000;
+  outline: 0;
+  text-decoration: none;
+}
