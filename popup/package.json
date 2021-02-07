@@ -21,7 +21,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "release": "npm run build && copy ..\\manifest.json .\\build"
+    "release": "npm run build && copy ..\\manifest.json .\\build && copy ..\\readme.md .\\build"
   },
   "eslintConfig": {
     "extends": [
